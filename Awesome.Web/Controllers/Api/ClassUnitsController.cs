@@ -6,7 +6,7 @@ using System.Web.Http;
 using Awesome.Data.Contracts;
 using Awesome.Model;
 
-namespace Awesome.Web.Controllers
+namespace Awesome.Web.Controllers.Api
 {
     public class ClassUnitsController : ApiBaseController
     {
@@ -16,6 +16,7 @@ namespace Awesome.Web.Controllers
         }
 
         // GET api/classunits
+        [Authorize]
         public IQueryable Get()
         {
             var model = Uow.Classunits.GetAll().OrderByDescending(c => c.ClassName)
