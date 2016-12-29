@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using Awesome_Angular_Web_App_2._0.Areas.HelpPage.ModelDescriptions;
-using Awesome_Angular_Web_App_2._0.Areas.HelpPage.Models;
+using Awesome.Areas.HelpPage.ModelDescriptions;
+using Awesome.Areas.HelpPage.Models;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage
+namespace Awesome.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

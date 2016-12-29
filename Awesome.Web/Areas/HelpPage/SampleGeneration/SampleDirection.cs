@@ -1,4 +1,4 @@
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage
+namespace Awesome.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

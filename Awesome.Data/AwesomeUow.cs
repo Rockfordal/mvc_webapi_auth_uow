@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Awesome.Data
 {
     /// <summary>
-    /// The Movie review "Unit of Work"
+    /// "Unit of Work"
     ///     1) decouples the repos from the controllers
     ///     2) decouples the DbContext and EF from the controllers
     ///     3) manages the UoW
@@ -42,6 +42,7 @@ namespace Awesome.Data
         {
             DbContext.SaveChanges();
         }
+
         protected void CreateDbContext()
         {
             DbContext = new AwesomeDbContext();
@@ -55,9 +56,7 @@ namespace Awesome.Data
             DbContext.Configuration.ValidateOnSaveEnabled = false;
         }
 
-
         protected IRepositoryProvider RepositoryProvider { get; set; }
-
 
         private IRepository<T> GetStandardRepo<T>() where T : class
         {

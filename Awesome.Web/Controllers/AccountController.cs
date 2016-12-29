@@ -14,11 +14,12 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using Awesome_Angular_Web_App_2._0.Models;
-using Awesome_Angular_Web_App_2._0.Providers;
-using Awesome_Angular_Web_App_2._0.Results;
+using Awesome.Models;
+using Awesome.Providers;
+using Awesome.Results;
+using Awesome.Data;
 
-namespace Awesome_Angular_Web_App_2._0.Controllers
+namespace Awesome.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

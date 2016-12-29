@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using Awesome_Angular_Web_App_2._0.Areas.HelpPage.ModelDescriptions;
+using Awesome.Areas.HelpPage.ModelDescriptions;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage.Models
+namespace Awesome.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

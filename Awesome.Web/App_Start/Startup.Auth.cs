@@ -8,10 +8,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using Awesome_Angular_Web_App_2._0.Providers;
-using Awesome_Angular_Web_App_2._0.Models;
+using Awesome.Providers;
+using Awesome.Models;
 
-namespace Awesome_Angular_Web_App_2._0
+namespace Awesome
 {
     public partial class Startup
     {

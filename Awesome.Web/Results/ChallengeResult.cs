@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace Awesome_Angular_Web_App_2._0.Results
+namespace Awesome.Results
 {
     public class ChallengeResult : IHttpActionResult
     {

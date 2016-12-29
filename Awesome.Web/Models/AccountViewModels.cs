@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Awesome_Angular_Web_App_2._0.Models
+namespace Awesome.Models
 {
     // Models returned by AccountController actions.
 

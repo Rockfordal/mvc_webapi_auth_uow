@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Awesome_Angular_Web_App_2._0.Startup))]
+[assembly: OwinStartup(typeof(Awesome.Startup))]
 
-namespace Awesome_Angular_Web_App_2._0
+namespace Awesome
 {
     public partial class Startup
     {

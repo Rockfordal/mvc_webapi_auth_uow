@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using Awesome_Angular_Web_App_2._0.Areas.HelpPage.ModelDescriptions;
+using Awesome.Areas.HelpPage.ModelDescriptions;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage
+namespace Awesome.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

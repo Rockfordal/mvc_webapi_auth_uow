@@ -14,5 +14,6 @@ namespace Awesome.Data.Contracts
     {
         void Commit();
         IRepository<ClassUnit> Classunits { get; }
+        IRepository<Subject> Subjects { get; }
     }
 }

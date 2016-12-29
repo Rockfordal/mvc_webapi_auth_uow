@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage
+namespace Awesome.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

@@ -7,7 +7,6 @@ using System.Web.Http.Cors;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 
-//namespace Awesome_Angular_Web_App_2._0
 //namespace Awesome.Web.App_Start
 namespace Awesome
 {

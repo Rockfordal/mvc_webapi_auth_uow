@@ -1,6 +1,6 @@
 using System;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage.ModelDescriptions
+namespace Awesome.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage
+namespace Awesome.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

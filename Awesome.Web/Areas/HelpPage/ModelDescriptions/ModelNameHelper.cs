@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage.ModelDescriptions
+namespace Awesome.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

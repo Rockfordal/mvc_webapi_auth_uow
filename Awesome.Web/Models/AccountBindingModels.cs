@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
 
-namespace Awesome_Angular_Web_App_2._0.Models
+namespace Awesome.Models
 {
     // Models used as parameters to AccountController actions.
 

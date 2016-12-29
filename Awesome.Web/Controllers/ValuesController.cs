@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
-namespace Awesome_Angular_Web_App_2._0.Controllers
+namespace Awesome.Controllers
 {
     [Authorize(Roles = "SuperAdmin")]
     //[EnableCors(origins: "*", headers: "*", methods: "*")]

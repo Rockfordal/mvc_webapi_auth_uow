@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Awesome_Angular_Web_App_2._0.Areas.HelpPage.ModelDescriptions;
-using Awesome_Angular_Web_App_2._0.Areas.HelpPage.Models;
+using Awesome.Areas.HelpPage.ModelDescriptions;
+using Awesome.Areas.HelpPage.Models;
 
-namespace Awesome_Angular_Web_App_2._0.Areas.HelpPage.Controllers
+namespace Awesome.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.
